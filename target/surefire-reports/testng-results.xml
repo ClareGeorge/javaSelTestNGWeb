@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-18T09:23:09 AEST" name="Suite" finished-at="2024-06-18T09:23:13 AEST" duration-ms="4043">
+    <groups>
+      <group name="Smoke">
+        <method signature="SampleWebTest.testChrome()[pri:1, instance:tests.SampleWebTest@480d3575]" name="testChrome" class="tests.SampleWebTest"/>
+        <method signature="SampleWebTest.performSearch()[pri:2, instance:tests.SampleWebTest@480d3575]" name="performSearch" class="tests.SampleWebTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-18T09:23:09 AEST" name="Test" finished-at="2024-06-18T09:23:13 AEST" duration-ms="4043">
+      <class name="tests.SampleWebTest">
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.SampleWebTest@480d3575]" started-at="2024-06-18T09:23:09 AEST" name="initialzeDriver" finished-at="2024-06-18T09:23:10 AEST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeDriver -->
+        <test-method signature="testChrome()[pri:1, instance:tests.SampleWebTest@480d3575]" started-at="2024-06-18T09:23:10 AEST" name="testChrome" finished-at="2024-06-18T09:23:12 AEST" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChrome -->
+        <test-method signature="performSearch()[pri:2, instance:tests.SampleWebTest@480d3575]" started-at="2024-06-18T09:23:12 AEST" name="performSearch" finished-at="2024-06-18T09:23:13 AEST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleWebTest@480d3575]" started-at="2024-06-18T09:23:13 AEST" name="tearDown" finished-at="2024-06-18T09:23:13 AEST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SampleWebTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
