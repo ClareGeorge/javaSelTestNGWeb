@@ -29,6 +29,12 @@ public class TestListener extends EComUtilsSeleniumWebApp implements  ITestListe
 		// TODO Auto-generated method stub
 		test.log(Status.PASS, "Test Passed");
 		//ITestListener.super.onTestSuccess(result);
+		try {
+			test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName(), super.driver), result.getMethod().getMethodName());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	@Override
@@ -36,16 +42,17 @@ public class TestListener extends EComUtilsSeleniumWebApp implements  ITestListe
 		// TODO Auto-generated method stub
 		test.log(Status.FAIL, result.getThrowable());
 		
-		
+		/*
+		 * try { driver = (WebDriver)
+		 * result.getTestClass().getRealClass().getField("driver").get(result.
+		 * getInstance()); } catch (IllegalArgumentException | IllegalAccessException |
+		 * NoSuchFieldException | SecurityException e) { // TODO Auto-generated catch
+		 * block e.printStackTrace();
+		 * 
+		 * }
+		 */
 		try {
-			driver = (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
-		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			
-		}
-		try {
-			test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName(), driver), result.getMethod().getMethodName());
+			test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName(), super.driver), result.getMethod().getMethodName());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

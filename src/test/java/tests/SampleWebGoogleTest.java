@@ -24,15 +24,15 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import resources.EComUtilsSeleniumWebApp;
 
-public class SampleWebTest extends EComUtilsSeleniumWebApp {
+public class SampleWebGoogleTest extends EComUtilsSeleniumWebApp {
 
-	@Test(priority =1, groups = {"Smoke" } ,alwaysRun = true)
+	@Test(priority =1 , enabled= true,  groups = {"Smoke" } ,alwaysRun = true)
 	public void testChrome() {
 						
 		driver.get("http://google.com");
 		System.out.println("Title is " + driver.getTitle());
 	}	
-	@Test(priority =2, groups = {"Smoke" } , alwaysRun = true)
+	@Test(priority =2 ,enabled= true , groups = {"Smoke" } , alwaysRun = true)
 	public void performSearch () {
 		
 		driver.findElement(By.id("APjFqb")).sendKeys("irctc share price");
@@ -43,5 +43,5 @@ public class SampleWebTest extends EComUtilsSeleniumWebApp {
 		Assert.assertEquals(textEquityName, "Indian Railway Ctrng nd Trsm Corp Ltd");
 	}
 
-	
+ 
 }
