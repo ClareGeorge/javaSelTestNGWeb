@@ -18,7 +18,10 @@ public class CategoryPage {
 	@FindBy(id="WelcomeContent")
 	private WebElement textWelcome;
 	
-	public void verifyWelcomeMessage() {
-		Assert.assertEquals(textWelcome.getText().strip().substring(0, 7), "Welcome"); 
+	@FindBy(partialLinkText="Sign Out")
+	private  WebElement lnkSignout;
+	public void verifyWelcomeMessage(String txtWelcome) {
+		Assert.assertEquals(textWelcome.getText().strip().substring(0, 7), txtWelcome);
+		lnkSignout.click();
 	}
 }

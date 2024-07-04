@@ -28,11 +28,11 @@ public class SignOnPage {
 	private WebElement inputSignOn;
 	
 
-	public CategoryPage enterUserCredentials() {
+	public CategoryPage enterUserCredentials(String username, String password) {
 		
-		inputUsername.sendKeys("clare");
+		inputUsername.sendKeys(username);
 		inputPassword.clear();
-		inputPassword.sendKeys("test");
+		inputPassword.sendKeys(password);
 		inputSignOn.click();
 		return new CategoryPage(driver);
 	}

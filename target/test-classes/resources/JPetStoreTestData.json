@@ -1,0 +1,38 @@
+{
+	"navigate_to_JPetStore_SignIn_page":[
+		{
+			"username": "clare",
+			"password": "test",
+			"welcome-text": "Welcome"
+		},
+		{
+			"username": "helen",
+			"password": "test",
+			"welcome-text": "Welcome"
+		}
+		
+	],
+	"test_testcase_two":[
+		{
+				
+				"client_id": "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com",
+				"client_secret": "erZOWM9g3UtwNRj340YYaK_W",
+				"grant_type": "client_credentials",
+				"scope": "trust"		
+		}
+	],
+	"test_testcase_three":[
+		{
+			"username": "clare",
+			"password": "test",
+			"welcome-text": "Welcome"
+		},
+		{
+			"username": "helen",
+			"password": "test",
+			"welcome-text": "Welcome"
+		}
+
+	]
+		
+}

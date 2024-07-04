@@ -3,13 +3,13 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.SampleTest">
+      <class name="tests.SampleWebGoogleTest">
         <methods>
           <include name="tearDown"/>
           <include name="initialzeDriver"/>
-          <include name="verifyHomePage"/>
+          <include name="performSearch"/>
         </methods>
-      </class> <!-- tests.SampleTest -->
+      </class> <!-- tests.SampleWebGoogleTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

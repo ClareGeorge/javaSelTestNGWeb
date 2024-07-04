@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-30T11:29:55 AEST" name="Suite" finished-at="2024-06-30T11:30:03 AEST" duration-ms="8062">
+  <suite started-at="2024-07-04T12:38:10 AEST" name="Suite" finished-at="2024-07-04T12:38:15 AEST" duration-ms="4799">
     <groups>
+      <group name="Smoke">
+        <method signature="SampleWebGoogleTest.testChrome()[pri:1, instance:tests.SampleWebGoogleTest@24111ef1]" name="testChrome" class="tests.SampleWebGoogleTest"/>
+        <method signature="SampleWebGoogleTest.performSearch()[pri:2, instance:tests.SampleWebGoogleTest@24111ef1]" name="performSearch" class="tests.SampleWebGoogleTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-06-30T11:29:55 AEST" name="Test" finished-at="2024-06-30T11:30:03 AEST" duration-ms="8062">
-      <class name="tests.SampleTest">
-        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.SampleTest@21a21c64]" started-at="2024-06-30T11:29:55 AEST" name="initialzeDriver" finished-at="2024-06-30T11:29:57 AEST" duration-ms="2342" status="PASS">
+    <test started-at="2024-07-04T12:38:10 AEST" name="Test" finished-at="2024-07-04T12:38:15 AEST" duration-ms="4799">
+      <class name="tests.SampleWebGoogleTest">
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.SampleWebGoogleTest@24111ef1]" started-at="2024-07-04T12:38:10 AEST" name="initialzeDriver" finished-at="2024-07-04T12:38:11 AEST" duration-ms="1366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzeDriver -->
-        <test-method signature="navigate_to_JPetStore_SignIn_page()[pri:1, instance:tests.SampleTest@21a21c64]" started-at="2024-06-30T11:29:57 AEST" name="navigate_to_JPetStore_SignIn_page" finished-at="2024-06-30T11:30:01 AEST" duration-ms="3223" status="PASS">
+        <test-method signature="testChrome()[pri:1, instance:tests.SampleWebGoogleTest@24111ef1]" started-at="2024-07-04T12:38:11 AEST" name="testChrome" finished-at="2024-07-04T12:38:13 AEST" duration-ms="1592" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate_to_JPetStore_SignIn_page -->
-        <test-method signature="enter_user_credential_and_login()[pri:2, instance:tests.SampleTest@21a21c64]" started-at="2024-06-30T11:30:01 AEST" name="enter_user_credential_and_login" finished-at="2024-06-30T11:30:03 AEST" duration-ms="1375" status="PASS">
+        </test-method> <!-- testChrome -->
+        <test-method signature="performSearch()[pri:2, instance:tests.SampleWebGoogleTest@24111ef1]" started-at="2024-07-04T12:38:13 AEST" name="performSearch" finished-at="2024-07-04T12:38:15 AEST" duration-ms="1418" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enter_user_credential_and_login -->
-        <test-method signature="verifyHomePage()[pri:3, instance:tests.SampleTest@21a21c64]" started-at="2024-06-30T11:30:03 AEST" name="verifyHomePage" finished-at="2024-06-30T11:30:03 AEST" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTest@21a21c64]" started-at="2024-06-30T11:30:03 AEST" name="tearDown" finished-at="2024-06-30T11:30:03 AEST" duration-ms="199" status="PASS">
+        </test-method> <!-- performSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleWebGoogleTest@24111ef1]" started-at="2024-07-04T12:38:15 AEST" name="tearDown" finished-at="2024-07-04T12:38:15 AEST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.SampleTest -->
+      </class> <!-- tests.SampleWebGoogleTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

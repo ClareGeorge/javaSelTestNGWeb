@@ -2,7 +2,10 @@ package tests;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Iterator;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -15,6 +18,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -23,16 +27,17 @@ import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import resources.EComUtilsSeleniumWebApp;
+import resources.TestDataBuild;
 
 public class SampleWebGoogleTest extends EComUtilsSeleniumWebApp {
 
-	@Test(priority =1 , enabled= true,  groups = {"Smoke" } ,alwaysRun = true)
+	@Test(priority=1, enabled= true,  groups = {"Smoke" } ,alwaysRun = true)
 	public void testChrome() {
 						
 		driver.get("http://google.com");
 		System.out.println("Title is " + driver.getTitle());
 	}	
-	@Test(priority =2 ,enabled= true , groups = {"Smoke" } , alwaysRun = true)
+	@Test(priority=2, enabled= true , groups = {"Smoke" } , alwaysRun = true)
 	public void performSearch () {
 		
 		driver.findElement(By.id("APjFqb")).sendKeys("irctc share price");
@@ -42,6 +47,6 @@ public class SampleWebGoogleTest extends EComUtilsSeleniumWebApp {
 		
 		Assert.assertEquals(textEquityName, "Indian Railway Ctrng nd Trsm Corp Ltd");
 	}
-
- 
+	
+	
 }
