@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-04T14:21:20 AEST" name="Suite" finished-at="2024-07-04T14:22:24 AEST" duration-ms="64207">
+  <suite started-at="2024-07-04T15:54:15 AEST" name="Suite" finished-at="2024-07-04T15:54:32 AEST" duration-ms="17274">
     <groups>
     </groups>
-    <test started-at="2024-07-04T14:21:20 AEST" name="Test" finished-at="2024-07-04T14:22:24 AEST" duration-ms="64207">
+    <test started-at="2024-07-04T15:54:15 AEST" name="Test" finished-at="2024-07-04T15:54:32 AEST" duration-ms="17274">
       <class name="tests.SampleTest_2">
-        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T14:22:16 AEST" name="initialzeDriver" finished-at="2024-07-04T14:22:17 AEST" duration-ms="725" status="PASS">
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T15:54:23 AEST" name="initialzeDriver" finished-at="2024-07-04T15:54:24 AEST" duration-ms="954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzeDriver -->
-        <test-method signature="navigate_to_JPetStore_SignIn_page(java.util.HashMap)[pri:1, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T14:22:17 AEST" name="navigate_to_JPetStore_SignIn_page" data-provider="getTestJsonData" finished-at="2024-07-04T14:22:22 AEST" duration-ms="4566" status="PASS">
+        <test-method signature="navigate_to_JPetStore_SignIn_page(java.util.HashMap)[pri:1, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T15:54:24 AEST" name="navigate_to_JPetStore_SignIn_page" data-provider="getTestJsonData" finished-at="2024-07-04T15:54:29 AEST" duration-ms="4867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate_to_JPetStore_SignIn_page -->
-        <test-method signature="navigate_to_JPetStore_SignIn_page(java.util.HashMap)[pri:1, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T14:22:22 AEST" name="navigate_to_JPetStore_SignIn_page" data-provider="getTestJsonData" finished-at="2024-07-04T14:22:24 AEST" duration-ms="2515" status="PASS">
+        <test-method signature="navigate_to_JPetStore_SignIn_page(java.util.HashMap)[pri:1, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T15:54:29 AEST" name="navigate_to_JPetStore_SignIn_page" data-provider="getTestJsonData" finished-at="2024-07-04T15:54:32 AEST" duration-ms="2578" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,56 +33,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate_to_JPetStore_SignIn_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T14:22:24 AEST" name="tearDown" finished-at="2024-07-04T14:22:24 AEST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTest_2@6e2829c7]" started-at="2024-07-04T15:54:32 AEST" name="tearDown" finished-at="2024-07-04T15:54:32 AEST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SampleTest_2 -->
       <class name="tests.SampleTest_1">
-        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T14:21:20 AEST" name="initialzeDriver" finished-at="2024-07-04T14:22:10 AEST" duration-ms="49919" status="PASS">
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T15:54:15 AEST" name="initialzeDriver" finished-at="2024-07-04T15:54:17 AEST" duration-ms="2556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzeDriver -->
-        <test-method signature="navigate_to_JPetStore_SignIn_page()[pri:1, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T14:22:10 AEST" name="navigate_to_JPetStore_SignIn_page" finished-at="2024-07-04T14:22:14 AEST" duration-ms="3654" status="PASS">
+        <test-method signature="navigate_to_JPetStore_SignIn_page()[pri:1, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T15:54:17 AEST" name="navigate_to_JPetStore_SignIn_page" finished-at="2024-07-04T15:54:21 AEST" duration-ms="3488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate_to_JPetStore_SignIn_page -->
-        <test-method signature="enter_user_credential_and_login()[pri:2, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T14:22:14 AEST" name="enter_user_credential_and_login" finished-at="2024-07-04T14:22:15 AEST" duration-ms="813" status="PASS">
+        <test-method signature="enter_user_credential_and_login()[pri:2, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T15:54:21 AEST" name="enter_user_credential_and_login" finished-at="2024-07-04T15:54:22 AEST" duration-ms="822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_user_credential_and_login -->
-        <test-method signature="verifyHomePage()[pri:3, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T14:22:15 AEST" name="verifyHomePage" finished-at="2024-07-04T14:22:16 AEST" duration-ms="707" status="PASS">
+        <test-method signature="verifyHomePage()[pri:3, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T15:54:22 AEST" name="verifyHomePage" finished-at="2024-07-04T15:54:23 AEST" duration-ms="717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T14:22:16 AEST" name="tearDown" finished-at="2024-07-04T14:22:16 AEST" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTest_1@68c9d179]" started-at="2024-07-04T15:54:23 AEST" name="tearDown" finished-at="2024-07-04T15:54:23 AEST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SampleTest_1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite started-at="2024-07-04T14:22:25 AEST" name="Suite (0)" finished-at="2024-07-04T14:22:27 AEST" duration-ms="1883">
+  <suite started-at="2024-07-04T15:54:32 AEST" name="Suite (0)" finished-at="2024-07-04T15:54:35 AEST" duration-ms="2160">
     <groups>
       <group name="Smoke">
         <method signature="ParallelTestsUsingExcelData.testOne()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" name="testOne" class="tests.ParallelTestsUsingExcelData"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-07-04T14:22:25 AEST" name="Test" finished-at="2024-07-04T14:22:27 AEST" duration-ms="1883">
+    <test started-at="2024-07-04T15:54:32 AEST" name="Test" finished-at="2024-07-04T15:54:35 AEST" duration-ms="2160">
       <class name="tests.ParallelTestsUsingExcelData">
-        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T14:22:25 AEST" name="initialzeDriver" finished-at="2024-07-04T14:22:26 AEST" duration-ms="872" status="PASS">
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T15:54:32 AEST" name="initialzeDriver" finished-at="2024-07-04T15:54:34 AEST" duration-ms="1062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzeDriver -->
-        <test-method signature="testOne()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T14:22:26 AEST" name="testOne" finished-at="2024-07-04T14:22:26 AEST" duration-ms="1" status="PASS">
+        <test-method signature="testOne()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T15:54:34 AEST" name="testOne" finished-at="2024-07-04T15:54:34 AEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method signature="testTwo()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T14:22:26 AEST" name="testTwo" finished-at="2024-07-04T14:22:26 AEST" duration-ms="1" status="PASS">
+        <test-method signature="testTwo()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T15:54:34 AEST" name="testTwo" finished-at="2024-07-04T15:54:34 AEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T14:22:26 AEST" name="tearDown" finished-at="2024-07-04T14:22:27 AEST" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ParallelTestsUsingExcelData@508dec2b]" started-at="2024-07-04T15:54:34 AEST" name="tearDown" finished-at="2024-07-04T15:54:35 AEST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

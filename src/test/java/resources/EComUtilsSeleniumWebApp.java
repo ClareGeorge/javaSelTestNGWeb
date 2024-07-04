@@ -2,7 +2,9 @@ package resources;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -38,7 +40,7 @@ public class EComUtilsSeleniumWebApp {
 	}
 	public String getScreenshotPath(String nameTestCase, WebDriver driver) throws IOException {
 		File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		String destinationFile = System.getProperty("user.dir")+"\\reports\\screenshots\\" + nameTestCase+ ".png";
+		String destinationFile = System.getProperty("user.dir")+"\\reports\\screenshots\\" +"_" +nameTestCase+ new SimpleDateFormat("yyyyMMddHHmm").format(new Date()) + ".png";
 		FileUtils.copyFile(source, new File(destinationFile));
 		return destinationFile;
 		
